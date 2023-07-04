@@ -2,17 +2,25 @@
     border-radius: 10%;
     background-color: rgb(252, 252, 252);
 }
+
 .add-button {
     border-radius: 40%;
     width: 5em;
     height: 2em;
 }
 
-ul li span{
+ul li span {
     right: 0;
     color: crimson;
 }
+
 ul li {
     display: flex;
     justify-content: space-between;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
 }
