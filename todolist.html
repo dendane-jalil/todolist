@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,25 +10,20 @@
 </head>
 
 <body>
-    <div class="app name">
-        <h1>Todo list <img src="" ></div><h1>
-    </div>
-    <div>
-        <div class="task-bar">
-            <input id="input-Box" type="text" placeholder="add your task" >
-            <button class="add-button" onclick="addTask()"> add task</button>          
-        </div>
-        <div class = "todo-list">
-                <ul id="todolist-cont" >
 
-                    <!-- <li>task 1</li>
-                    <li>task 2</li>
-                    <li>task 3</li> -->
-
-                </ul>
-        </div>
+    <div id="myDIV" class="header">
+        <h2>My To Do List</h2>
+        <input type="text" id="myInput" placeholder="Title..." onkeypress="clickPress(event)">
+        <span onclick="newElement()" class="addBtn">Add</span>
     </div>
-<script src="todolist-script.js"></script>
+
+    <ul id="myUL">
+
+    </ul>
+
+    <script>
+    </script>
+    <script src="todolist-script.js"></script>
 </body>
-</html>
 
+</html>
