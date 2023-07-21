@@ -14,7 +14,6 @@ ul {
     padding: 0;
 }
 
-/* Style the list items */
 ul li {
     cursor: pointer;
     position: relative;
@@ -24,14 +23,13 @@ ul li {
     font-size: 18px;
     transition: 0.2s;
 
-    /* make the list items unselectable */
+
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
 }
 
-/* Set all odd list items to a different color (zebra-stripes) */
 ul li:nth-child(odd) {
     background: #f9f9f9;
 }
